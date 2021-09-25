@@ -4,8 +4,9 @@
   "description": "A package to ensure that you don't accidentally include 2 of the same type strings in a redux action file.",
   "main": "anti-double-typer.js",
   "scripts": {
-    "dev": "ts-node ./src/anti-double-typer.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node ./src/anti-double-typer.ts ./src/actionTypes.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/anti-double-typer.js ./build/actionTypes.js"
   },
   "author": "Kyle Bennett",
   "license": "ISC",
