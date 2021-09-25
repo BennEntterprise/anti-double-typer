@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node ./src/anti-double-typer.ts ./src/actionTypes.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./build/anti-double-typer.js ./build/actionTypes.js"
+    "start": "node <path-to-local-script>/anti-double-typer.js ./build/actionTypes.js"
   },
   "author": "Kyle Bennett",
   "license": "ISC",

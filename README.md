@@ -22,7 +22,7 @@ Later iterations of the package would be able:
 - to accept a directory and scan all contained files for duplicates.
 - use regex matching
 
-## To Run Test This Package
+## To Run/ Test This Package
 
 1. Clone the Repo
 2. Run `npm i` to get the dependencies.
@@ -34,10 +34,10 @@ Later iterations of the package would be able:
 Right now this is not yet an npm package so there's a bit of a work around: 
 
 1. Copy the file `./build/anti-double-typer.js` to somewhere local to your project.
-2. To run the tool type `./build/anit-double-typer.js <path-to-your-types-file>`
+2. To run the tool type `./<place-you-copied-to>/anti-double-typer.js <path-to-your-types-file>`
 3. Observe the output!
 
-I'll leave it up to you to implment this into your devops process. (I'd recommend 
+I'll leave it up to you to implement this into your devops process. (I'd recommend 
 a pre-commit git hook, but that's just me.)
 
 
