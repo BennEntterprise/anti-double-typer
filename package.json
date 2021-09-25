@@ -1,0 +1,14 @@
+{
+  "name": "anti-double-typer",
+  "version": "1.0.0",
+  "description": "A package to ensure that you don't accidentally include 2 of the same type strings in a redux action file.",
+  "main": "anti-double-typer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Bennett",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.10.1"
+  }
+}
